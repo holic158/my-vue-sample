@@ -1,4 +1,9 @@
 import { createApp } from 'vue'
-import App from './App.vue'
+import App from './App'
+import router from './router'
+import axios from 'axios'
+import vCalendar from 'v-calendar';
 
-createApp(App).mount('#app')
+const app = createApp(App);
+app.use(router, axios).mount('#app');
+app.use(vCalendar, {});
