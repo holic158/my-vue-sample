@@ -19,7 +19,7 @@ export default {
   },
   methods: {
     /**
-     * 잘못된 사용법
+     * 잘못된 사용법 
      */
     async apiTest () {
       console.log('apiTest called');
