@@ -25,6 +25,11 @@ const routes = [
         path: '/views/sequencialCall',
         name: 'sequencialCall',
         component: () => import('@/components/views/sequencialCall')
+      },
+      {
+        path: '/views/loadImage',
+        name: 'loadImage',
+        component: () => import('@/components/views/loadImage')
       }    
 ]
 

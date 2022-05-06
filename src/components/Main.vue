@@ -14,7 +14,7 @@ export default {
   data () {
     return {
       msg: 'Vue.js를 사용한 Poc 모음',
-      projects: ['v-calendar', 'async-await', 'unAsync-await', 'sequencialCall']
+      projects: ['v-calendar', 'async-await', 'unAsync-await', 'sequencialCall', 'loadImage']
     }
   },
   methods: {
@@ -36,6 +36,9 @@ export default {
           break;
         case 'sequencialCall':
           this.$router.push('/views/sequencialCall');
+          break;
+        case 'loadImage':
+          this.$router.push('/views/loadImage');
           break;
         default:
           break;
