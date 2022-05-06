@@ -3,7 +3,8 @@
         <input type="file" @change="changImage($event)">
     </div>
     <div style="padding-top:20px">
-      <textarea v-model="message" style="width:100%;height:500px"></textarea>
+      <!--<textarea v-model="message" style="width:100%;height:500px"></textarea>-->
+      <pre>{{message || pretty }}</pre>
     </div>
 </template>
 <script>
@@ -16,6 +17,11 @@ export default ({
       message: 'Vue exif meta info',
     }
   },
+  filters: {
+    pretty: function(value) {
+      return JSON.stringify(JSON.parse(value), null, 2);
+    }
+  },  
   created () {
     console.log('this.message', this.message);
     this.test();
@@ -29,7 +35,7 @@ export default ({
           EXIF.getData(e.target.files[0], function() {
               console.log('image info', this)
               console.log('exif data', this.exifdata)
-              vm.message = JSON.stringify(this.exifdata);
+              vm.message = this.exifdata;
               // vm.test();
           })
       } else {
