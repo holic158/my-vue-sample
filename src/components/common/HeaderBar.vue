@@ -1,6 +1,6 @@
 <template>
-    <div class="header">
-        <h1>{{headerTitle}}</h1>
+    <div class="nav-bar">
+        <a class="nav-bar-title">{{headerTitle}}</a>
     </div>
 </template>
 
@@ -19,7 +19,6 @@ export default {
         };
     },
     created() {
-        console.log('HeaderBar headerTitle', this.headerTitle);
     },
 }
 </script>>

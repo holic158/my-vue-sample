@@ -15,7 +15,6 @@ export default {
   watch: {
     $route(to) {
       this.headerTitle = to.name;
-      console.log('App.vue headerTitle', this.headerTitle);
     },
   },  
   data() {
@@ -28,4 +27,5 @@ export default {
 </script>
 
 <style>
+  @import './assets/css/import.css'
 </style>

@@ -39,11 +39,11 @@ const router = createRouter({
   });
 
 router.beforeEach((to, from, next) => {
-  // console.log(JSON.stringify({from,next,to}));
-  // console.log('to %s from %s next', to, from, next);
-  // console.log('to', to);
-  // console.log('from', from);
-  // console.log('next', next);
+  
+  //console.log('to:\n%s\n\n from:\n%s\n\n next:\n%s\n\n', JSON.stringify(to), JSON.stringify(from), next)
+
+  console.log({to, from, next});
+
   next();
 });
 
