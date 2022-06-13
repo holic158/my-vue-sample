@@ -1,5 +1,14 @@
+/*https://router.vuejs.org/introduction.html 참조함*/
 /* header */
 .nav-bar {padding:.7rem 1.5rem}
 .nav-bar {border-bottom: 1px solid #f8f8f8;}
 
 .nav-bar-title {font-size:1.3rem; font-weight:600; color:#2c3e50}
+
+/* left side bar */
+.sidebar {width: 20rem;}
+.sidebar {transform: translate(0);}
+.sidebar {position: fixed;width: 20rem;height:20rem;bottom:0;background-color:red;overflow-y: auto;transform: translate(-100%);transition: transform .25s ease;}
+
+/* main-container */
+.main-container {margin:0 auto; padding: 0 1.5rem 4rem; max-width: 48rem; }

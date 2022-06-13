@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="page">
     <h1>{{ msg }}</h1>
     <div v-for="(item, index) in projects" :key="index">
       <span @click="movePage(item)">{{item}}</span>
