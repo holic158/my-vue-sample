@@ -1,8 +1,10 @@
 <template>
   <div class="main-container">
-    <headerBar v-bind:headerTitle="headerTitle"></headerBar>
-    <LeftSideBar></LeftSideBar>
-    <router-view :key="$route.fullPath" />
+    <div class="theme">
+      <headerBar v-bind:headerTitle="headerTitle"></headerBar>
+      <LeftSideBar></LeftSideBar>
+      <router-view :key="$route.fullPath" />
+    </div>
   </div>
 </template>
 
