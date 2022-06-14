@@ -43,7 +43,45 @@
                 <li class="sidebar-link"><a class="sidebar-link-item" href="/guide/essentials/passing-props.html">Passing Props to Route Components</a><!----></li>
                 <li class="sidebar-link"><a class="sidebar-link-item" href="/guide/essentials/history-mode.html">Different History modes</a><!----></li>
             </ul>
-        </li>        
+        </li>
+        <li class="sidebar-link">
+        <p class="sidebar-link-item">Advanced</p>
+        <ul class="sidebar-links">
+            <li class="sidebar-link">
+                <a class="sidebar-link-item" href="/guide/advanced/navigation-guards.html">Navigation guards</a><!---->
+            </li>
+            <li class="sidebar-link">
+                <a class="sidebar-link-item" href="/guide/advanced/meta.html">Route Meta Fields</a><!---->
+            </li>
+            <li class="sidebar-link">
+                <a class="sidebar-link-item" href="/guide/advanced/data-fetching.html">Data Fetching</a><!---->
+            </li>
+            <li class="sidebar-link">
+                <a class="sidebar-link-item" href="/guide/advanced/composition-api.html">Composition API</a><!---->
+            </li>
+            <li class="sidebar-link">
+                <a class="sidebar-link-item" href="/guide/advanced/transitions.html">Transitions</a><!---->
+            </li>
+            <li class="sidebar-link">
+                <a class="sidebar-link-item" href="/guide/advanced/scroll-behavior.html">Scroll Behavior</a><!---->
+            </li>
+            <li class="sidebar-link">
+                <a class="sidebar-link-item" href="/guide/advanced/lazy-loading.html">Lazy Loading Routes</a><!---->
+            </li>
+            <li class="sidebar-link">
+                <a class="sidebar-link-item" href="/guide/advanced/extending-router-link.html">Extending RouterLink</a><!---->
+            </li>
+            <li class="sidebar-link">
+                <a class="sidebar-link-item" href="/guide/advanced/navigation-failures.html">Navigation Failures</a><!---->
+            </li>
+            <li class="sidebar-link">
+                <a class="sidebar-link-item" href="/guide/advanced/dynamic-routing.html">Dynamic Routing</a><!---->
+            </li>
+        </ul>
+        </li>
+        
+
+
     </ul>
 </aside>
 </template>
