@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="page">
     <h1>{{ msg }}</h1>
     <div v-for="(item, index) in projects" :key="index">
       <span @click="movePage(item)">{{item}}</span>
@@ -13,7 +13,7 @@ export default {
   name: 'Main',
   data () {
     return {
-      msg: 'Vue.js를 사용한 Poc 모음',
+      msg: 'Vue.js 사용 샘플 모듈 목록',
       projects: ['v-calendar', 'async-await', 'unAsync-await', 'sequencialCall', 'loadImage']
     }
   },

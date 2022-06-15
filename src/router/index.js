@@ -38,4 +38,13 @@ const router = createRouter({
     routes,
   });
 
+router.beforeEach((to, from, next) => {
+  
+  //console.log('to:\n%s\n\n from:\n%s\n\n next:\n%s\n\n', JSON.stringify(to), JSON.stringify(from), next)
+
+  console.log({to, from, next});
+
+  next();
+});
+
   export default router;
