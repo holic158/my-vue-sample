@@ -14,7 +14,7 @@ export default {
   data () {
     return {
       msg: 'Vue.js 사용 샘플 모듈 목록',
-      projects: ['v-calendar', 'async-await', 'unAsync-await', 'sequencialCall', 'loadImage']
+      projects: ['v-calendar', 'async-await', 'unAsync-await', 'sequencialCall', 'loadImage','kakaoLink']
     }
   },
   methods: {
@@ -40,6 +40,9 @@ export default {
         case 'loadImage':
           this.$router.push('/views/loadImage');
           break;
+        case 'kakaoLink':
+          this.$router.push('/views/kakaoLink');
+          break;          
         default:
           break;
       }

@@ -30,7 +30,12 @@ const routes = [
         path: '/views/loadImage',
         name: 'loadImage',
         component: () => import('@/components/views/loadImage')
-      }    
+      },
+      {
+        path: '/views/kakaoLink',
+        name: 'kakaoLink',
+        component: () => import('@/components/views/kakaoLink')
+      }      
 ]
 
 const router = createRouter({
