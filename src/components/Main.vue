@@ -10,14 +10,22 @@
 <script>
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
-  name: 'Main',
+  name: 'Vuex',
   data () {
     return {
       msg: 'Vue.js 사용 샘플 모듈 목록',
       projects: ['v-calendar', 'async-await', 'unAsync-await', 'sequencialCall', 'loadImage','kakaoLink']
     }
   },
+  created() {
+    this.init();
+  },
   methods: {
+    init() {
+      console.log('name1', name);  // result : name1 
+      console.log('name2', this.name); // result : name2 undefinded
+      console.log('name3', this.$refs.name); // result name3  undefinded
+    },
     /**
      * 화면이동
      * @param {String} page

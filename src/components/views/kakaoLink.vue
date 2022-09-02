@@ -13,6 +13,7 @@ export default ({
     }
     },
     created () {
+        document.getElementsByClassName('sidebar')[0].style="display:none";
     },
     methods: {
         openKakaoLink() {

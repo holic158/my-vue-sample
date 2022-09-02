@@ -3,7 +3,7 @@ import { createWebHistory, createRouter } from "vue-router";
 const routes = [
     {
         path: '/',
-        name: 'Main',
+        name: 'Vuex',
         component: () => import('@/components/Main'),
     },
     {

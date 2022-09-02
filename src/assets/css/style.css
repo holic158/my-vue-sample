@@ -1,9 +1,13 @@
 /*https://router.vuejs.org/introduction.html 참조함*/
 /* header */
-.nav-bar {padding:.7rem 1.5rem}
+.nav-bar {padding:.7rem 1.5rem; display:flex;position: fixed;right:0;left:0;top:0;}
 .nav-bar {border-bottom: 1px solid #f8f8f8;}
 
 .nav-bar-title {font-size:1.3rem; font-weight:600; color:#2c3e50}
+
+.item {padding-left:24px;}
+.nav-links {display:flex;}
+.flex_glow {flex-grow:1}
 
 /* left side bar */
 .sidebar {width: 20rem;}
